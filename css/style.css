@@ -1,0 +1,75 @@
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+div#container
+{
+	position:relative;
+	width: 1700px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left; 
+}
+body {text-align:center;margin:0}
+
+.navigationButtons{
+	margin-top:15px;
+	margin-bottom:15px;		
+}
+.filmContainer
+{
+	border:solid 1px;
+	width:684px;
+	height:175px;
+	text-align:left;
+	margin-left:15px;
+	margin-top:10px;
+}
+.filmContainer img{
+	width:289px;
+	height:131px;
+}
+.contentContainer{
+	width:370px;
+	height:100%;
+	float:right;
+	display:block;
+}
+.filmdesc{
+	height:90px;
+}
+.infocount{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.buttons form{
+	display:inline;
+	margin:0;
+}
+.bookingDate{
+	width:70px;
+}
+
+
+.statistic td{
+	position:relative;
+}
+
+.statisticInformation{
+	background-color:#090;
+	display:block;
+	height:20px;
+	position:absolute;
+	z-index:-1;
+}
+.statisticBooking{
+	background-color:#CF0;
+	display:block;
+	height:20px;
+	position:absolute;
+	z-index:-1;
+}
